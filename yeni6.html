@@ -1,0 +1,68 @@
+<!DOCTYPE hmtl>
+<html lang="tr">
+<head>
+<meta charset="ntf-8">
+<title> ÜNİTE 5 </title>
+
+<form>
+Adı:<input type="text" name="isim">
+Soyadı:<input type="text" name="soyisim">
+Şifre:<input type="password" name="şifre">
+Doğum Tarihi:<input type="date" name="dtarih">
+<input type="submit" value="gönder">
+<input type="reset" value="sıfırlama">
+</form>
+<form>
+<input Ürün sayısı: type="range" name="sayı" value="1" min="1" max="10">
+<input Ürün sayısı: type="number" name="sayı" value="1" min="1" max="10" step="1">
+</form>
+
+<br> <br>
+<form>
+<input type="checkbox" name="renk1" value="kırmızı" >Kırmızı
+<input type="checkbox" name="renk2" value="beyaz" >Beyaz
+<input type="checkbox" name="renk3" value="siyah" >Siyah
+<br> <br>
+<input type="radio" name="cinsiyet" value="kadın" >Kadın
+<input type="checkbox" name="cinsiyet" value="erkek" >Erkek
+<input type="submit"  value="Gönder" >
+<input type="reset"  value="Sıfırlama" >
+</form>
+<br> <br>
+<form>
+<input type="button" value="Mesaj Gönder" onclick="mesaj{}"> 
+</form>
+<script>
+function mesaj{}
+{
+alert('selamlar');
+</script>
+<br> <br>
+
+<fieldset>
+<legend>Kişisel Bilgiler</legend>
+Ad:<input type="text" name="isim" >
+Soyad:<input type="text" name="soyisim" >
+Şifre:<input type="password" name="şifre">
+Doğum Tarihi:<input type="date" name="dtarih">
+<input type="submit" value="gönder">
+<input type="reset" value="sıfırlama">
+</fieldset>
+<br> <br>
+
+<select name="Şehirler Listesi">
+<optgroup label="iç anadolu">
+<option value="1">Ankara</option>
+<option value="2">Eskişehir</option>
+<option value="3">Antep</option>
+</optgroup>
+<optgroup label="Ege">
+<option value="1">İzmir </option>
+<option value="2">Aydın</option>
+<option value="3">Denizli</option>
+</optgroup>
+</select>
+
+
+</body>
+</html>
